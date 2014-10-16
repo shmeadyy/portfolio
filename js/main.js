@@ -4,5 +4,4 @@ $(document).ready(function(){
 	$('.mobile-menu h3').click(function(){
 		$('.mobile-menu ul').toggle();
 	})
-
 })
