@@ -1,0 +1,51 @@
+@media only screen
+and (min-width : 1224px) {
+	.mobile-menu{
+		display: none;
+	}
+
+	h1{
+		margin: 20px 0 0 0;
+	}
+
+	h1 a{
+		padding-top: 20px;
+	}
+
+	.menu{
+		display: block;
+		background: #012C56;
+		color: #fff;
+	}
+
+	li.list{
+		display: inline-block;
+		border-bottom: none;
+		padding: 12px 7em;
+	}
+
+	.list:first-child{
+		margin-left: 27px;
+	}
+
+	.list:hover{
+		color: #646361;
+	}
+
+	#menu-about:hover{
+		background: #AADEC9;
+	}
+
+	#menu-resume:hover{
+		background: #FCED4A;
+	}
+
+	#menu-portfolio:hover{
+		background: #FE9F5A;
+	}
+
+	#menu-contact:hover{
+		background: #FED3B7;
+	}
+
+}

@@ -20,8 +20,8 @@ h2{
 	padding: 42px;
 }
 
-h2 a{
-	padding-top: 20px;
+.menu{
+	display: none;
 }
 
 .mobile-menu{
@@ -49,24 +49,35 @@ li a{
 	font-size: 1.5em;
 }
 
+.crissy{
+	width: 100%;
+}
+
 .box{
 	width: 100%;
 	height: 50em;
 	color: #646361;
+	padding-top: 3em;
 }
 
-.about{
+.boxContainer{
+	width: 90%;
+	background: #fff;
+	margin: auto;
+}
+
+#about{
 	background: #AADEC9;
 }
 
-.resume{
+#resume{
 	background: #FCED4A;
 }
 
-.portfolio{
+#portfolio{
 	background: #FE9F5A;
 }
 
-.contact{
+#contact{
 	background: #FED3B7;
 }
