@@ -3,10 +3,11 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/desktop.css">
 	<script src="js/jquery-2.1.1.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
-<body>
+<body id="home">
 	<div class="mobile-menu">
 		<h3>Menu</h3>
 		<ul>
@@ -16,22 +17,38 @@
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</div>
-	<h1>Laura Mead</h1>
-	<img style="width:100%;" src="imgs/portfolio.jpg"/>
-	<div class="box about">
-		<h2><a name="about">About</a></h2>
+	<div class="menu">
+		<ul>
+			<li class="list" id="menu-about"><a href="#about">About</a></li>
+			<li class="list" id="menu-resume"><a href="#resume">Resume</a></li>
+			<li class="list" id="menu-portfolio"><a href="#portfolio">Portfolio</a></li>
+			<li class="list" id="menu-contact"><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+	<h1><a href="#home">Laura Mead</a></h1>
+	<img class="crissy" src="imgs/crissy.jpg"/>
+	<div id="about" class="box">
+		<div class="boxContainer">
+			<h2>About</h2>
+		</div>
 	</div>
 
-	<div class="box resume">
-		<h2><a name="resume">Resume</a></h2>
+	<div id="resume" class="box">
+		<div class="boxContainer">
+			<h2>Resume</h2>
+		</div>
 	</div>
 
-	<div class="box portfolio">
-		<h2><a name="portfolio">Portfolio</a></h2>
+	<div id="portfolio" class="box">
+		<div class="boxContainer">
+			<h2>Portfolio</h2>
+		</div>
 	</div>
 
-	<div class="box contact">
-		<h2><a name="contact">Contact</a></h2>
+	<div id="contact" class="box">
+		<div class="boxContainer">
+			<h2>Contact</h2>
+		</div>
 	</div>
 
 </body>
