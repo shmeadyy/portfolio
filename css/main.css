@@ -5,19 +5,17 @@ src: url('../fonts/basictitlefont.ttf') format('truetype');
 
 html{
 	background: #646361;
+	font-family: 'BasicTitle';
 }
 
 h1{
-	font-family: 'BasicTitle';
 	font-size: 6em;
 	color: #fff;
 	margin: 0.5em;
 	text-align: center;
-	border-bottom: 1px solid #fff;
 }
 
 h2{
-	font-family: 'BasicTitle';
 	font-size: 5em;
 	padding: 25px;
 }
@@ -26,9 +24,35 @@ h2 a{
 	padding-top: 20px;
 }
 
+.mobile-menu{
+	background: #012C56;
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	border-top: 1px solid #fff;
+}
+
+.mobile-menu h3{
+	font-size: 2.5em;
+	padding: 30px;
+	border-bottom: 1px solid #aaa;
+}
+
+li{
+	padding: 24px 0px;
+	border-bottom: 1px solid #aaa;
+}
+
+li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+}
+
 .box{
 	width: 100%;
 	height: 50em;
+	color: #646361;
 }
 
 .about{
