@@ -1,0 +1,48 @@
+@font-face{
+font-family: 'BasicTitle';
+src: url('../fonts/basictitlefont.ttf') format('truetype');
+}
+
+html{
+	background: #646361;
+}
+
+h1{
+	font-family: 'BasicTitle';
+	font-size: 6em;
+	color: #fff;
+	margin: 0.5em;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+
+h2{
+	font-family: 'BasicTitle';
+	font-size: 5em;
+	padding: 25px;
+}
+
+h2 a{
+	padding-top: 20px;
+}
+
+.box{
+	width: 100%;
+	height: 50em;
+}
+
+.about{
+	background: #AADEC9;
+}
+
+.resume{
+	background: #FCED4A;
+}
+
+.portfolio{
+	background: #FE9F5A;
+}
+
+.contact{
+	background: #FED3B7;
+}
