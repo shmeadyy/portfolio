@@ -1,52 +1,30 @@
 @font-face{
-font-family: 'BasicTitle';
-src: url('../fonts/basictitlefont.ttf') format('truetype');
-}
-
-html{
-	background: #646361;
 	font-family: 'BasicTitle';
+	src: url('../fonts/basictitlefont.ttf') format('truetype');
 }
 
-h1{
-	font-size: 6em;
-	color: #fff;
-	margin: 0.5em;
-	text-align: center;
+body {
+	font-family: 'BasicTitle';
+	color: #999;
+	background-color: #242F38;
 }
 
-h2{
-	font-size: 6em;
+.push {
+	clear: both;
+}
+
+.content_wrap{
+	background: #fff;
+}
+
+.top_wrap {
+	width: 100%;
+	background: #2c3e50;
+}
+
+h2 {
+	font-size: 4em;
 	padding: 42px;
-}
-
-.menu, .stickymenu_wrap{
-	display: none;
-}
-
-.mobile-menu{
-	background: #242F38;
-	color: #fff;
-	font-size: 2em;
-	text-align: center;
-	border-top: 1px solid #fff;
-}
-
-.mobile-menu h3{
-	font-size: 2.5em;
-	padding: 30px;
-	border-bottom: 1px solid #aaa;
-}
-
-.mobile{
-	padding: 24px 0px;
-	border-bottom: 1px solid #aaa;
-}
-
-.mobile a{
-	text-decoration: none;
-	color: #fff;
-	font-size: 1.5em;
 }
 
 .crissy{
@@ -66,18 +44,239 @@ h2{
 	margin: auto;
 }
 
-#about{
-	background: #AADEC9;
+/* =============== Colors ===================== */
+
+.about:hover{
+	color: #AADEC9;
 }
 
-#resume{
-	background: #FCED4A;
+.resume:hover{
+	color: #FCED4A;
 }
 
-#portfolio{
-	background: #FE9F5A;
+.portfolio:hover{
+	color: #FE9F5A;
 }
 
-#contact{
-	background: #FED3B7;
+.contact:hover{
+	color: #FED3B7;
+}
+
+/* Sticky Menu
+======================= */
+.stickymenu_wrap {
+	position: fixed;
+	top: -80px;
+	z-index: 1000;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	background: #242F38;
+	height: 80px;
+	width: 100%;
+}
+
+.stickymenu {
+	width: 92.75%;
+	max-width: 1240px;
+	margin: 0 auto;
+	height: 80px;
+	overflow: visible;
+}
+
+.stickymenu_wrap h1 {
+	float: left;
+	display: inline;
+	margin-top: 25px;
+}
+
+.stickymenu_wrap h1 a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.3em;
+}
+
+.sticky_nav {
+	float: left;
+	display: inline;
+	margin-left: 50px;
+	margin-top: 31px;
+}
+
+.sticky_nav li {
+	float: left;
+	display: inline;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+.sticky_nav li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+/* Desktop Main Nav
+======================== */
+.header {
+	width: 92.75%;
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 9px 0;
+}
+
+.main_nav {
+	float: right;
+	display: inline;
+	margin-top: 35px;
+}
+
+.header h1 {
+	float: left;
+	display: inline;
+	font-size: 2.5em;
+}
+
+.header h1 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.main_nav li {
+	float: left;
+	display: inline;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+.main_nav li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+.main_nav li a.active {
+	color: #1abc9c;
+}
+
+.stickymenu_wrap a.btn_menu {
+	margin-top: 15px;
+}
+
+.tablet, a.tablet{
+	display: none;
+}
+
+
+/* Imagery
+======================== */
+
+a.btn_menu {
+	float: right;
+	width: 49px;
+	margin-top: 21px;
+	margin-right: 20px;
+}
+
+a.btn_menu img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Media Query: Tablet
+==========================*/
+
+@media only screen and (max-width: 880px){
+	.tablet, a.tablet {
+		display: block;
+	}
+
+	.desktop, #divMenu {
+		display: none;
+	}
+
+	.main_nav{
+		clear: both;
+		width: 100%;
+		background: #5e7284;
+		overflow: hidden;
+		margin: 7px 0 0 0;
+	}
+
+	.main_nav li {
+		width: 25%;
+		border-right: 1px solid #72879a;
+		text-align: center;
+		margin: 0;
+		display: block;
+		float: left;
+		box-sizing: border-box;
+	}
+	.main_nav li a{
+		padding: 20px 0;
+		display: block;
+		color: #242F38;
+	}
+
+	.aboutB{
+		background: #AADEC9;
+	}
+
+	.resumeB{
+		background: #FCED4A;
+	}
+
+	.portfolioB{
+		background: #FE9F5A;
+	}
+
+	.contactB{
+		background: #FED3B7;
+	}
+
+	.main_nav li.last {
+		border: 0;
+	}
+
+	.sticky_nav {
+		clear: both;
+		width: 100%;
+		background: #5e7284;
+		overflow: hidden;
+		margin: -2px 0 0 0;
+	}
+
+	.sticky_nav {
+		display: none;
+	}
+
+	.sticky_nav li {
+		width: 20%;
+		border-right: 1px solid #72879a;
+		text-align: center;
+		margin: 0;
+		display: block;
+		float: left;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.sticky_nav li a {
+		padding: 20px 0;
+		display: block;
+	}
+}
+
+/* Media Query: Phone
+============================ */
+
+@media only screen and (max-width: 480px) {
+	.header h1 {
+		width: 12em;
+	}
 }
