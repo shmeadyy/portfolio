@@ -31,8 +31,8 @@ body {
 	font-family: 'JenniferLynne';
 	font-size: 4em;
 	margin: 0;
-	margin-left: 5em;
-	padding-bottom: 20px;
+	margin-left: 25%;
+	padding-bottom: 30px;
 }
 
 .aboutMe{
@@ -40,7 +40,7 @@ body {
 	margin: auto;
 	font-size: 1.8em;
 	line-height: 1.2;
-	margin-bottom: 30px;
+	overflow: hidden;
 }
 
 h2 {
@@ -51,8 +51,7 @@ h2 {
 
 .box{
 	width: 100%;
-	height: 50em;
-	padding-top: 4em 0 4em 0;
+	padding: 4em 0 4em 0;
 }
 
 .boxContainer{
@@ -295,6 +294,21 @@ a.btn_menu img {
 		display: block;
 		color: #242F38;
 	}
+
+	.laura{
+		margin-left: 5px;
+		margin-bottom: 5px;
+		width: 40%;
+	}
+
+	.aboutMe{
+		font-size: 1.5em;
+	}
+
+	.signature{
+		font-size: 3em;
+	}
+
 }
 
 /* Media Query: Phone
@@ -309,4 +323,11 @@ a.btn_menu img {
 		width: 31% !important;
 	}
 
+	.laura{
+		width: 50%;
+	}
+
+	.aboutMe{
+		font-size: 1em;
+	}
 }
