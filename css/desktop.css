@@ -12,9 +12,9 @@ and (min-width : 1224px) {
 		padding-top: 20px;
 	}
 
-	.menu{
+	.menu, .stickymenu_wrap{
 		display: block;
-		background: #012C56;
+		background: #242F38;
 		color: #fff;
 	}
 
@@ -24,12 +24,12 @@ and (min-width : 1224px) {
 		padding: 12px 7em;
 	}
 
-	.list:first-child{
-		margin-left: 27px;
+	li a{
+		font-size: 1.5em;
 	}
 
-	.list:hover{
-		color: #646361;
+	.list:first-child{
+		margin-left: 27px;
 	}
 
 	#menu-about:hover{
@@ -40,6 +40,10 @@ and (min-width : 1224px) {
 		background: #FCED4A;
 	}
 
+	#menu-resume:hover a{
+		color: #646361;
+	}
+
 	#menu-portfolio:hover{
 		background: #FE9F5A;
 	}
@@ -48,4 +52,69 @@ and (min-width : 1224px) {
 		background: #FED3B7;
 	}
 
+	#stickyAbout:hover{
+		color: #AADEC9;
+	}
+
+	#stickyResume:hover{
+		color: #FCED4A;
+	}
+
+	#stickyPortfolio:hover{
+		color: #FE9F5A;
+	}
+
+	#stickyContact:hover{
+		 color: #FED3B7;
+	}
+
+	/* ============ Sticky Menu Wrap ============= */
+
+	.stickymenu_wrap {
+		position: fixed;
+		top: -80px;
+		z-index: 1000;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+		background: #242F38;
+		height: 80px;
+		width: 100%;
+	}
+
+	.stickymenu {
+		width: 92.75%;
+		max-width: 1240px;
+		margin: 0 auto;
+		height: 80px;
+		overflow: visible;
+	}
+
+	.stickymenu_wrap h1 {
+		float: left;
+		display: inline;
+		font-size: 3em;
+		margin-top: 17px;
+	}
+
+	.sticky_nav {
+		float: left;
+		display: inline;
+		margin-left: 50px;
+		margin-top: 32px;
+	}
+
+	.sticky_nav li {
+		float: left;
+		display: inline;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		margin-right: 30px;
+	}
+
+	.sticky_nav li a {
+		text-decoration: none;
+		color: #fff;
+	}
 }

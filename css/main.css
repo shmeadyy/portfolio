@@ -20,12 +20,12 @@ h2{
 	padding: 42px;
 }
 
-.menu{
+.menu, .stickymenu_wrap{
 	display: none;
 }
 
 .mobile-menu{
-	background: #012C56;
+	background: #242F38;
 	color: #fff;
 	font-size: 2em;
 	text-align: center;
@@ -38,12 +38,12 @@ h2{
 	border-bottom: 1px solid #aaa;
 }
 
-li{
+.mobile{
 	padding: 24px 0px;
 	border-bottom: 1px solid #aaa;
 }
 
-li a{
+.mobile a{
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.5em;

@@ -6,16 +6,30 @@
 	<link rel="stylesheet" type="text/css" href="css/desktop.css">
 	<script src="js/jquery-2.1.1.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/sticky-menu.js"></script>
 </head>
 <body id="home">
 	<div class="mobile-menu">
 		<h3>Menu</h3>
 		<ul>
-			<li><a href="#about">About</a></li>
-			<li><a href="#resume">Resume</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li class="mobile"><a href="#about">About</a></li>
+			<li class="mobile"><a href="#resume">Resume</a></li>
+			<li class="mobile"><a href="#portfolio">Portfolio</a></li>
+			<li class="mobile"><a href="#contact">Contact</a></li>
 		</ul>
+	</div>
+	<div class="stickymenu_wrap">
+		<div class="stickymenu">
+			<h1><a href="#home">Laura Mead</a></h1>
+			<ul class="sticky_nav desktop">
+				<li><a id="stickyAbout" href="#about">About</a></li>
+				<li><a id="stickyResume" href="#resume">Resume</a></li>
+				<li><a id="stickyPortfolio" href="#portfolio">Portfolio</a></li>
+				<li><a id="stickyContact" href="#contact">Contact</a></li>
+			</ul>
+			<div class="push"></div>
+		</div>
 	</div>
 	<div class="menu">
 		<ul>
@@ -25,7 +39,7 @@
 			<li class="list" id="menu-contact"><a href="#contact">Contact</a></li>
 		</ul>
 	</div>
-	<h1><a href="#home">Laura Mead</a></h1>
+	<h1 class="name"><a href="#home">Laura Mead</a></h1>
 	<img class="crissy" src="imgs/crissy.jpg"/>
 	<div id="about" class="box">
 		<div class="boxContainer">
