@@ -62,6 +62,22 @@ h2 {
 	color: #FED3B7;
 }
 
+.aboutB{
+	background: #AADEC9;
+}
+
+.resumeB{
+	background: #FCED4A;
+}
+
+.portfolioB{
+	background: #FE9F5A;
+}
+
+.contactB{
+	background: #FED3B7;
+}
+
 /* Sticky Menu
 ======================= */
 .stickymenu_wrap {
@@ -221,22 +237,6 @@ a.btn_menu img {
 		color: #242F38;
 	}
 
-	.aboutB{
-		background: #AADEC9;
-	}
-
-	.resumeB{
-		background: #FCED4A;
-	}
-
-	.portfolioB{
-		background: #FE9F5A;
-	}
-
-	.contactB{
-		background: #FED3B7;
-	}
-
 	.main_nav li.last {
 		border: 0;
 	}
@@ -254,7 +254,7 @@ a.btn_menu img {
 	}
 
 	.sticky_nav li {
-		width: 20%;
+		width: 25%;
 		border-right: 1px solid #72879a;
 		text-align: center;
 		margin: 0;
@@ -276,7 +276,12 @@ a.btn_menu img {
 ============================ */
 
 @media only screen and (max-width: 480px) {
-	.header h1 {
-		width: 12em;
+	.main_nav li, .sticky_nav li{
+		width: 23%;
 	}
+
+	.long{
+		width: 31% !important;
+	}
+
 }
