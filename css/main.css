@@ -54,6 +54,10 @@ h2 {
 	padding: 4em 0 4em 0;
 }
 
+.extend{
+	height: 50em;
+}
+
 .boxContainer{
 	width: 90%;
 	background: #fff;
