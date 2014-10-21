@@ -21,7 +21,8 @@
 body {
 	font-family: 'BasicTitle';
 	color: #646361;
-	background-color: #242F38;
+	background-image: url('../imgs/background.jpg');
+	background-size: contain;
 }
 
 .title{
@@ -43,7 +44,7 @@ body {
 
 .top_wrap {
 	width: 100%;
-	background: #2c3e50;
+	background: transparent;
 }
 
 .signature{
@@ -97,35 +98,35 @@ h2 {
 /* =============== Colors ===================== */
 
 .about:hover{
-	color: #AADEC9;
+	color: #003354;
 }
 
 .resume:hover{
-	color: #FCED4A;
+	color: #91BED4;
 }
 
 .portfolio:hover{
-	color: #FE9F5A;
+	color: #F26101;
 }
 
 .contact:hover{
-	color: #FED3B7;
+	color: #D9E8F5;
 }
 
 .aboutB{
-	background: #AADEC9;
+	background: #003354;
 }
 
 .resumeB{
-	background: #FCED4A;
+	background: #91BED4;
 }
 
 .portfolioB{
-	background: #FE9F5A;
+	background: #F26101;
 }
 
 .contactB{
-	background: #FED3B7;
+	background: #D9E8F5;
 }
 
 /* Sticky Menu
@@ -266,13 +267,17 @@ a.btn_menu img {
 /* Media Query: Tablet
 ==========================*/
 
-@media only screen and (max-width: 880px){
+@media only screen and (max-width: 902px){
 	.tablet, a.tablet {
 		display: block;
 	}
 
 	.desktop, #divMenu {
 		display: none;
+	}
+
+	.top_wrap{
+		background: #242F38;
 	}
 
 	.main_nav{
