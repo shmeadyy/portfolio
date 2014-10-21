@@ -19,6 +19,15 @@ body {
 	background-color: #242F38;
 }
 
+.title{
+	font-family: 'BasicTitle';
+	font-size: 6.5em;
+	position: absolute;
+	top: 2.6em;
+	left: 5em;
+	letter-spacing: 9px;
+}
+
 .push {
 	clear: both;
 }
@@ -177,9 +186,9 @@ h2 {
 }
 
 .main_nav {
-	float: right;
-	display: inline;
-	margin-top: 35px;
+	top: 2em;
+	left: 2em;
+	position: absolute;
 }
 
 .header h1 {
@@ -202,8 +211,7 @@ h2 {
 
 .main_nav li a {
 	text-decoration: none;
-	color: #fff;
-	font-weight: 700;
+	color: #242F38;
 }
 .main_nav li a.active {
 	color: #1abc9c;
@@ -327,6 +335,11 @@ a.btn_menu img {
 		font-size: 3em;
 	}
 
+	.magic{
+		width: 67%;
+		font-size: 4.5em;
+	}
+
 }
 
 /* Media Query: Phone
@@ -347,5 +360,10 @@ a.btn_menu img {
 
 	.aboutMe{
 		font-size: 1em;
+	}
+
+	.magic{
+		width: 88%;
+		font-size: 2.5em;
 	}
 }
