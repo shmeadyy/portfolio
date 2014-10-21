@@ -25,6 +25,10 @@ body {
 	background-size: contain;
 }
 
+#white{
+	color: #fff;
+}
+
 .title{
 	font-family: 'Devil Breeze';
 	font-size: 6.5em;
@@ -203,7 +207,6 @@ h2 {
 .header h1 {
 	float: left;
 	display: inline;
-	font-size: 2.5em;
 }
 
 .header h1 a{
@@ -211,6 +214,7 @@ h2 {
 	color: #fff;
 	font-family: 'Devil Breeze';
 	letter-spacing: 4px;
+	font-size: 2em;
 }
 
 .main_nav li {
@@ -267,7 +271,13 @@ a.btn_menu img {
 /* Media Query: Tablet
 ==========================*/
 
-@media only screen and (max-width: 902px){
+@media only screen and (max-width: 1066px){
+	.header h1 a{
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 965px){
 	.tablet, a.tablet {
 		display: block;
 	}
@@ -300,7 +310,7 @@ a.btn_menu img {
 	.main_nav li a{
 		padding: 20px 0;
 		display: block;
-		color: #fff;
+		color: #242F38;
 	}
 
 	.main_nav li.last {
@@ -356,7 +366,6 @@ a.btn_menu img {
 		width: 67%;
 		font-size: 4.5em;
 	}
-
 }
 
 /* Media Query: Phone
@@ -365,6 +374,26 @@ a.btn_menu img {
 @media only screen and (max-width: 480px) {
 	.main_nav li, .sticky_nav li{
 		width: 23%;
+	}
+
+	#copyright{
+		font-size: 0.1em;
+	}
+
+	.header h1 a{
+		font-size: 0.9em;
+	}
+
+	.stickymenu_wrap h1 a{
+		font-size: 0.9em;
+	}
+
+	.main_nav li a{
+		font-size: 0.7em;
+	}
+
+	.header h1 a{
+		font-size:;
 	}
 
 	.long{
