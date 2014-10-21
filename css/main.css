@@ -13,6 +13,11 @@
 	src: url('../fonts/mathilde.otf');
 }
 
+@font-face{
+	font-family: 'Devil Breeze';
+	src: url('../fonts/DevilBreezeLight.ttf') format('truetype');
+}
+
 body {
 	font-family: 'BasicTitle';
 	color: #646361;
@@ -20,7 +25,7 @@ body {
 }
 
 .title{
-	font-family: 'BasicTitle';
+	font-family: 'Devil Breeze';
 	font-size: 6.5em;
 	position: absolute;
 	top: 2.6em;
@@ -70,6 +75,8 @@ h2 {
 	font-size: 4em;
 	padding: 42px 0 0 42px;
 	margin: 0;
+	font-family: 'Devil Breeze';
+	letter-spacing: 2px;
 }
 
 .box{
@@ -154,6 +161,8 @@ h2 {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.3em;
+	font-family: 'Devil Breeze';
+	letter-spacing: 4px;
 }
 
 .sticky_nav {
@@ -182,13 +191,12 @@ h2 {
 	width: 92.75%;
 	max-width: 1240px;
 	margin: 0 auto;
-	padding: 9px 0;
 }
 
 .main_nav {
-	top: 2em;
-	left: 2em;
-	position: absolute;
+	float:right;
+	display: inline;
+	margin-top: 35px;
 }
 
 .header h1 {
@@ -200,6 +208,8 @@ h2 {
 .header h1 a{
 	text-decoration: none;
 	color: #fff;
+	font-family: 'Devil Breeze';
+	letter-spacing: 4px;
 }
 
 .main_nav li {
@@ -211,7 +221,7 @@ h2 {
 
 .main_nav li a {
 	text-decoration: none;
-	color: #242F38;
+	color: #fff;
 }
 .main_nav li a.active {
 	color: #1abc9c;
