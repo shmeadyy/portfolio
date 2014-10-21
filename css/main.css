@@ -222,6 +222,8 @@ h2 {
 .main_nav li a {
 	text-decoration: none;
 	color: #fff;
+	font-family: 'Devil Breeze';
+	letter-spacing: 2px;
 }
 .main_nav li a.active {
 	color: #1abc9c;
